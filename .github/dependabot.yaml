@@ -1,0 +1,12 @@
+version: 2
+updates:
+  - package-ecosystem: "pip"
+    directory: "/"
+    open-pull-requests-limit: 20
+    schedule:
+      interval: "monthly"
+    groups:
+      fastapi-dependencies:
+        patterns:
+          - "fastapi"
+          - "pydantic*"
