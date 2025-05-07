@@ -6,8 +6,8 @@ authors = ["Lightricks <dgang@lightricks.com>"]
 
 [tool.poetry.dependencies]
 python = "^3.12"
-fastapi = "0.115.5"
-pydantic = "2.8.2"
+fastapi = "0.115.12"
+pydantic = "2.11.4"
 
 [build-system]
 requires = ["poetry-core"]
