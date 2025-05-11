@@ -1,0 +1,13 @@
+job:
+  package-manager: pip
+  source:
+    directory: /traditional
+    provider: github
+    repo: david-gang/poetry-group1
+    branch: main
+  dependency-groups:
+    - name: fastapi-dependencies
+      rules:
+        patterns:
+          - "fastapi"
+          - "pydantic*"
